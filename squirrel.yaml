@@ -29,56 +29,66 @@ show_notifications_when: appropriate
 app_options:
   com.github.GitHubClient:
     ascii_mode: true
-    com.microsoft.VSCode:
-      ascii_mode: true
-    com.apple.dt.Xcode:
-      ascii_mode: true
-    com.runningwithcrayons.Alfred:
-      ascii_mode: true
-    com.apple.Terminal:
-      ascii_mode: true
-    com.googlecode.iterm2:
-      ascii_mode: true
-    com.apple.finder:
-      ascii_mode: true
-    com.sublimetext.4:
-      ascii_mode: true
-    com.sublimetext.3:
-      ascii_mode: true
-    com.apple.calculator:
-      ascii_mode: true
-    com.apple.launchpad.launcher:
-      ascii_mode: true
-    com.apple.systempreferences:
-      ascii_mode: true
-    com.apple.ActivityMonitor:
-      ascii_mode: true
-    com.apple.keychainaccess:
-      ascii_mode: true
-    com.apple.Spotlight:
-      ascii_mode: true
-    com.jetbrains.intellij:
-      ascii_mode: true
-    com.jetbrains.datagrip:
-      ascii_mode: true
-    com.jetbrains.pycharm:
-      ascii_mode: true
-    io.nteract.nteract:
-      ascii_mode: true
-    com.sequelpro.SequelPro:
-      ascii_mode: true
-    io.termix.client:
-      ascii_mode: true
-    com.agilebits.onepassword7:
-      ascii_mode: true
-    com.agilebits.onepassword7-helper:
-      ascii_mode: true
-    com.kapeli.dashdoc:
-      ascii_mode: true
-    com.svend.uPic:
-      ascii_mode: true
-    com.eusoft.eudic:
-      ascii_mode: true
+  com.microsoft.VSCode:
+    ascii_mode: true
+  com.apple.dt.Xcode:
+    ascii_mode: true
+  com.runningwithcrayons.Alfred:
+    ascii_mode: true
+  com.apple.Terminal:
+    ascii_mode: true
+  com.googlecode.iterm2:
+    ascii_mode: true
+  com.apple.finder:
+    ascii_mode: true
+  com.sublimetext.4:
+    ascii_mode: true
+  com.sublimetext.3:
+    ascii_mode: true
+  com.apple.calculator:
+    ascii_mode: true
+  com.apple.launchpad.launcher:
+    ascii_mode: true
+  com.apple.systempreferences:
+    ascii_mode: true
+  com.apple.ActivityMonitor:
+    ascii_mode: true
+  com.apple.keychainaccess:
+    ascii_mode: true
+  com.apple.Spotlight:
+    ascii_mode: true
+  com.jetbrains.intellij:
+    ascii_mode: true
+  com.jetbrains.datagrip:
+    ascii_mode: true
+  com.jetbrains.pycharm:
+    ascii_mode: true
+  io.nteract.nteract:
+    ascii_mode: true
+  com.sequelpro.SequelPro:
+    ascii_mode: true
+  io.termix.client:
+    ascii_mode: true
+  com.agilebits.onepassword7:
+    ascii_mode: true
+  com.agilebits.onepassword7-helper:
+    ascii_mode: true
+  com.kapeli.dashdoc:
+    ascii_mode: true
+  com.svend.uPic:
+    ascii_mode: true
+  com.eusoft.eudic:
+    ascii_mode: true
+  com.jetbrains.PhpStorm:
+    ascii_mode: true
+  com.jetbrains.GoLand:
+    ascii_mode: true
+  com.jetbrains.WebStorm:
+    ascii_mode: true
+  com.jetbrains.PyCharm:
+    ascii_mode: true
+  com.jetbrains.Clion:
+    ascii_mode: true
 
 style:
   # 选择皮肤，亮色与暗色主题
