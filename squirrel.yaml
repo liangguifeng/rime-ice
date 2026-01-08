@@ -57,12 +57,6 @@ app_options:
     ascii_mode: true
   com.apple.Spotlight:
     ascii_mode: true
-  com.jetbrains.intellij:
-    ascii_mode: true
-  com.jetbrains.datagrip:
-    ascii_mode: true
-  com.jetbrains.pycharm:
-    ascii_mode: true
   io.nteract.nteract:
     ascii_mode: true
   com.sequelpro.SequelPro:
@@ -88,6 +82,10 @@ app_options:
   com.jetbrains.PyCharm:
     ascii_mode: true
   com.jetbrains.Clion:
+    ascii_mode: true
+  com.jetbrains.intellij:
+    ascii_mode: true
+  com.jetbrains.datagrip:
     ascii_mode: true
 
 style:
