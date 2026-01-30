@@ -1,22 +1,40 @@
+# 自定义词典配置说明
+#
+# 1. 格式：每行包含「词条」和「编码」，必须用 **Tab** 分隔，不能用空格
+#    正确示例：Hyperf	hyperf
+#    错误示例：Hyperf hyperf （空格会导致词典无法识别）
+#
+# 2. 文件名即为词典名称（name），需要与 schema 引用一致
+#
+# 3. 修改后需重新部署才能生效
+#
+# 4. 注意事项：
+#    - 确保词条与编码之间只有一个 Tab 字符
+#    - 某些编辑器可能会将 Tab 自动转换为空格，请注意检查
+#    - 可使用十六进制编辑器或 `od -c` 命令检查分隔符
+#
 ---
 name: my
-version: "2026-01-08"
+version: "2026-01-30"
 sort: by_weight
 ...
 
 https://github.com/liangguifeng	github
-https://www.baidu.com baidu
-梁桂锋  liang gui feng
-liangguifeng liang gui feng
-梁桂锋  lgf
-犯二青年 fan er qing nian
-黄子 huang zi
-黄子 hz
-梁沅浩 liang yuan hao
-梁沅浩 lyh
-梁健国 liang jian guo
-梁健国 ljg
-姚坤 yao kun
-姚坤 yk
-梁宝月 liang bao yue
-梁宝月 lby
+https://www.baidu.com	baidu
+梁桂锋	liang gui feng
+liangguifeng	liang gui feng
+梁桂锋	lgf
+犯二青年	fan er qing nian
+黄子	huang zi
+黄子	hz
+梁沅浩	liang yuan hao
+梁沅浩	lyh
+梁健国	liang jian guo
+梁健国	ljg
+姚坤	yao kun
+姚坤	yk
+梁宝月	liang bao yue
+梁宝月	lby
+Hyperf	hyperf
+Swoole	swoole
+我	w	10000000
