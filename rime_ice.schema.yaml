@@ -283,6 +283,7 @@ editor:
   bindings:
     space: confirm                        # 空格键：上屏候选项
     Return: commit_raw_input              # 回车键：上屏原始输入
+    KP_Enter: commit_raw_input            # 回车键：上屏原始输入
     Control+Return: commit_script_text    # Ctrl+回车键：上屏变换后输入（经过 preedit_format 转换的）
     Control+Shift+Return: commit_comment  # Ctrl+Shift+回车键：上屏 comment
     BackSpace: revert                     # 退格键：向前删除（撤消上次输入）
